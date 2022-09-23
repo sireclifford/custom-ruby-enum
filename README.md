@@ -2,7 +2,6 @@
 
 > In this project we learnt how to use a module inside our class. For this we create a class MyList and a module MyEnumerable. Our module MyEnumerable will implement a subset of the functionality of [Enumerable](https://ruby-doc.org/core-3.0.0/Enumerable.html) .
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -15,7 +14,6 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 - Clone this repository with `git clone
-
 
 ## Authors
 
