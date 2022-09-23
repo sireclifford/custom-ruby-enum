@@ -4,12 +4,10 @@ module MyEnumerable
     each { |i| return false unless yield i }
     true
   end
-
   def any?
     each { |i| return true if yield i }
     false
   end
-
   # implement #filter method
   def filter
     result = []
