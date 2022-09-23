@@ -1,5 +1,3 @@
-inherit_gem:
-  prettier: rubocop.yml
 AllCops:
   NewCops: enable
   Exclude:
@@ -18,8 +16,9 @@ Metrics/AbcSize:
 Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
-  IgnoredMethods: ["describe"]
+  IgnoredMethods: ['describe']
   Max: 30
+
 
 Style/Documentation:
   Enabled: false
@@ -33,8 +32,6 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
-  Style/StringLiterals:
-    EnforcedStyle: double_quotes
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
