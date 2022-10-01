@@ -1,12 +1,12 @@
 module MyEnumerable
   def all?
     each { |i| return false unless yield i }
-    true
+    false
   end
 
   def any?
     each { |i| return true if yield i }
-    false
+    true
   end
 
   def filter
